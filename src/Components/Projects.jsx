@@ -22,7 +22,7 @@ const Projects = () => {
                 <img src={Pokemon} alt="Avatar" />
                 <div class="container">
                     <h4><b>HolDING</b></h4>
-                    <button>Live</button>
+                    <button disabled>Live</button>
                     <button>Github</button>
                     <p>Architect & Engineer</p>
                 </div>
