@@ -84,10 +84,10 @@ div>a, ul>li {
  .paragraph{ 
     display: inline-block;
 } 
-.icon{
+/* .icon{
     font-size:20px;
     margin-right: 20px;
-}
+} */
 /* .foot{
     display: inline-block;
     list-style: none;
