@@ -44,12 +44,24 @@ const Projects = () => {
             <div class="card">
                 <img src={Pokemon} alt="Avatar" />
                 <div class="container">
+                    <h4><b>Twitter Clone</b></h4>
+                    <button>Live</button>
+                    <button>Github</button>
+                    <p>Architect & Engineer</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src={Pokemon} alt="Avatar" />
+                <div class="container">
                     <h4><b>Ethic Attire</b></h4>
                     <button>Live</button>
                     <button>Github</button>
                     <p>Architect & Engineer</p>
                 </div>
             </div>
+
+            
         </div>
         </>
     )
