@@ -1,0 +1,30 @@
+.App {
+    text-align: center;
+    background-color: #61dafb;
+  
+    /* border-image: url("./images/cheetahprint.jpg") 30 round; */
+  }
+  /* import */
+  
+  #root{
+    background-color: white;
+    min-height: 100vh;
+    text-align: center;
+  }
+  .app{
+   border: 1.5em solid ;
+    border-image: url("../images/cheetahprint.png") 100 round ;   
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .twitter{
+    height: 200px;
+  }

@@ -17,10 +17,6 @@ const Home2 = () => {
             </div>
 
             <div id='left'>
-                <label class="switch">
-                    <input type="checkbox"/>
-                        <span class="slider round"></span>
-                </label>
                     <div id='blue_text'>
                         <h1>BriCoded</h1>
                         <p> We've added tons of cool features, including ...</p>
