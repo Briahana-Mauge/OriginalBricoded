@@ -5,7 +5,7 @@ import '../CSS/NavBar.css';
 
 const NavBar = (props) => {
     return (
-      <div className="app">
+      <div className="nav">
         
         <header className = 'nav'>
           <Link to="/">Home</Link> {' '}
