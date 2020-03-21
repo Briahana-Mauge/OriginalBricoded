@@ -7,7 +7,8 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Thread from './Components/Thread'
 import NavBar from './Components/NavBar';
-// import './App.css';
+import NavBar2 from './Components/NavBar2';
+import './App.css';
 
 class App extends React.Component {
   constructor() {
@@ -44,7 +45,7 @@ class App extends React.Component {
               <Route exact path="/" component={Home} />
 
               <Route path="/Projects" component={Projects} />
-              <Route path="/about" component={About} />
+              {/* <Route path="/about" component={About} /> */}
               <Route path="/contact" component={Contact} />
               <Route path="/days-of-code" component={Thread} />
             </Switch>
