@@ -1,12 +1,13 @@
 import React from 'react'
 import Pokemon from '../images/Pokemon.png';
+import Holding from '../images/holding.png';
 import '../CSS/Projects.css';
 const Projects = () => {
     return (
         <>
         <h1>Projects</h1>
-        <div className = 'cards'>
-            
+        
+        <div className = 'cards'>  
             <div class="card">
                 <img src={Pokemon} alt="Avatar" />
                 <div class="container">
@@ -19,7 +20,7 @@ const Projects = () => {
             <br></br>
             
             <div class="card">
-                <img src={Pokemon} alt="Avatar" />
+                <img src={Holding} alt="Avatar" />
                 <div class="container">
                     <h4><b>HolDING</b></h4>
                     <button disabled>Live</button>
