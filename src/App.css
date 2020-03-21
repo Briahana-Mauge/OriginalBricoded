@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  background-color: #61dafb;
+  background-color: white;
  /* border: 1.5em solid ; */
   /* border-image: url("./images/cheetahprint.png") 100 round ; */
 
@@ -27,6 +27,8 @@
     transform: rotate(360deg);
   }
 }
-.twitter{
-  height: 200px;
+
+
+.icon{
+  font-size: 40px;
 }

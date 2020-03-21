@@ -1,5 +1,8 @@
 import React from 'react'
 import '../CSS/Home2.css';
+import { FaHtml5, FaCss3Alt, FaNode, FaReact, FaGitAlt } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io'
+import { DiPostgresql } from 'react-icons/di'
 
 const Home2 = () => {
     return (
@@ -9,28 +12,37 @@ const Home2 = () => {
                 <div id='info'>
                     <div id='white_box'>
                         <div id='white_text'>
-                            <h1> See what's happening in the world right now </h1>
-                            <h2 id='join'> Join Twitter today.</h2>
+                            <h1> Hi, I'm Briahana! </h1>
+                            <h2 id='join'> I am a full stack web developer.</h2>
+                            <p>Some of my skills include:</p>
+                            <FaHtml5 className='icon' />
+                            <FaCss3Alt className='icon' />
+                            <IoLogoJavascript className='icon' />
+                            <FaNode className='icon' />
+                            <FaReact className='icon' />
+                            <FaGitAlt className='icon' />
+                            <DiPostgresql className='icon' />
                         </div>
                     </div>
                 </div>
             </div>
 
             <div id='left'>
-                    <div id='blue_text'>
-                        <h1>BriCoded</h1>
-                        <p> We've added tons of cool features, including ...</p>
+                <div id='blue_text'>
+                    <img alt='logo here' />
+                    <h1>BriCoded</h1>
+                    {/* <p> We've added tons of cool features, including ...</p> */}
 
-                    </div>
+                </div>
 
             </div>
         </>
-            )
-        }
-        
-        export default Home2;
-        
-        
-        
-        
-        
+    )
+}
+
+export default Home2;
+
+
+
+
+
