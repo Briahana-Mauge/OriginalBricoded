@@ -1,6 +1,7 @@
 .App {
     text-align: center;
     background-color: #61dafb;
+    
   
     /* border-image: url("./images/cheetahprint.jpg") 30 round; */
   }
@@ -14,6 +15,7 @@
   .app{
    border: 1.5em solid ;
     border-image: url("../images/cheetahprint.jpg") 100 round ;   
+    min-height: 95vh;
   }
   
   
