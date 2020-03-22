@@ -9,11 +9,11 @@ const NavBar = (props) => {
         
         <header className = 'nav'>
           <Link to="/">Home</Link> {' '}
-          <Link to="/Projects">Projects</Link>{' '}
+          <Link to="/projects">Projects</Link>{' '}
           <Link to="/about">About</Link>{' '}
           <Link to="/contact">Contact</Link>{' '}
           <Link to="/days-of-code">Days Of Code</Link>{' '}
-          <Button handleSwitch = {props.handleSwitch}/>
+          {/* <Button handleSwitch = {props.handleSwitch} switched = {props.switched}/> */}
         </header>
   
      

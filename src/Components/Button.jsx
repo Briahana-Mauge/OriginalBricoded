@@ -5,7 +5,7 @@ const Button = (props) => {
     return (
         <>
             <label className="switch" >
-                <input type="checkbox"  onChange= {props.handleSwitch}/>
+                <input type="checkbox"  onChange= {props.handleSwitch} value = {props.checked}/>
                 <span className="slider round"></span>
             </label>
         </>
