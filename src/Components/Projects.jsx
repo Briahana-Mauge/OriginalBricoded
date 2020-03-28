@@ -12,7 +12,7 @@ const Projects = () => {
             <div class="card">
                 <img src={Pokemon} alt="Screenshot of Pokémon project" />
                 <div class="container">
-                    <h4><b>Pokémon Simulator</b></h4>
+                    <h4><b>Bri's PokéBattles</b></h4>
                     <button>Live</button>
                     <button>Github</button>
                     <p>Architect & Engineer</p>
