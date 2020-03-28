@@ -1,6 +1,7 @@
 import React from 'react'
 import Pokemon from '../images/Pokemon.png';
 import Holding from '../images/holding.png';
+import Twitter from '../images/Twitter.png';
 import '../CSS/Projects.css';
 const Projects = () => {
     return (
@@ -9,7 +10,7 @@ const Projects = () => {
         
         <div className = 'cards'>  
             <div class="card">
-                <img src={Pokemon} alt="Avatar" />
+                <img src={Pokemon} alt="Screenshot of Pokémon project" />
                 <div class="container">
                     <h4><b>Pokémon Simulator</b></h4>
                     <button>Live</button>
@@ -20,9 +21,9 @@ const Projects = () => {
             <br></br>
             
             <div class="card">
-                <img src={Holding} alt="Avatar" />
+                <img src={Holding} alt="Screenshot of holDING project" />
                 <div class="container">
-                    <h4><b>HolDING</b></h4>
+                    <h4><b>holDING</b></h4>
                     <button disabled>Live</button>
                     <button>Github</button>
                     <p>Architect & Engineer</p>
@@ -42,7 +43,7 @@ const Projects = () => {
             <br></br>
             
             <div class="card">
-                <img src={Pokemon} alt="Avatar" />
+                <img src={Twitter} alt="ScreenShot of Twitter Project" />
                 <div class="container">
                     <h4><b>Twitter Clone</b></h4>
                     <button>Live</button>
