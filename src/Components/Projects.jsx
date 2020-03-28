@@ -1,7 +1,7 @@
 import React from 'react'
 import Pokemon from '../images/Pokemon.png';
 import Holding from '../images/holding.png';
-import Twitter from '../images/Twitter.png';
+import Twitter from '../images/twitter.png';
 import '../CSS/Projects.css';
 const Projects = () => {
     return (
