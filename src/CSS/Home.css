@@ -19,14 +19,20 @@
   }
   
   
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  #blackLogo {
+  width: 25%;
+  position: absolute;
+  left: 30px;
   }
+
+#content{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
   .twitter{
     height: 200px;
   }
+ 

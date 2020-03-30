@@ -3,6 +3,7 @@ import '../CSS/Home2.css';
 import { FaHtml5, FaCss3Alt, FaNode, FaReact, FaGitAlt } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io'
 import { DiPostgresql } from 'react-icons/di'
+import logoYellow from '../logoYellow.svg';
 
 const Home2 = () => {
     return (
@@ -29,8 +30,8 @@ const Home2 = () => {
 
             <div id='left'>
                 <div id='blue_text'>
-                    <img alt='logo here' />
-                    <h1>BriCoded</h1>
+                    <img src = {logoYellow} alt='logo here' />
+                    {/* <h1>BriCoded</h1> */}
                     {/* <p> We've added tons of cool features, including ...</p> */}
 
                 </div>
