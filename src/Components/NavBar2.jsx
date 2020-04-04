@@ -7,7 +7,7 @@ const NavBar = (props) => {
     return (
       <div className="nav">
         
-        <header className = 'nav'>
+        <header className = 'nav2'>
           <Link to="/">Home</Link> {' '}
           <Link to="/Projects">Projects</Link>{' '}
           <Link to="/contact">Contact</Link>{' '}

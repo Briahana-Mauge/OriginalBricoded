@@ -4,6 +4,7 @@ import { FaHtml5, FaCss3Alt, FaNode, FaReact, FaGitAlt } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io'
 import { DiPostgresql } from 'react-icons/di'
 import logoYellow from '../logoYellow.svg';
+import Nav2 from './NavBar2';
 
 const Home2 = () => {
     return (
@@ -29,6 +30,7 @@ const Home2 = () => {
             </div>
 
             <div id='left'>
+                <Nav2 />
                 <div id='blue_text'>
                     <img src = {logoYellow} alt='logo here' />
                     {/* <h1>BriCoded</h1> */}

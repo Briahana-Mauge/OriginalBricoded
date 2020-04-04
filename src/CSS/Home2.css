@@ -8,6 +8,11 @@ html, body{
     border: hidden;
 }
 
+.nav2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 #container{
     height: 93%;
     display: flex;
@@ -34,6 +39,8 @@ html, body{
 }
 #left{
     position: absolute;
+    display: flex;
+    flex-direction: column;
     /* bottom: -30; */
     width: 50%;
     display: flex;
@@ -205,7 +212,7 @@ a:hover{
    
 }
 @media only screen and (max-width: 1115px){
-    input[type=text], input[type=password], #forget, .login_small{
+    .nav{
         visibility: hidden;
     }
     .login_small2{
@@ -214,7 +221,7 @@ a:hover{
 }
 
 @media only screen and (max-width: 1115px) and (max-height: 500px) {
-    input[type=text], input[type=password], #forget, .login_small{
+    .nav{
         visibility: hidden;
     }
     .login_small2{
@@ -260,8 +267,7 @@ a:hover{
     }
     #white_text{
         position: relative;
-        top: 167px;
-        /* left:35px; */
+        top: 25px;
         margin-top:100%;
      }
     #left{
@@ -347,9 +353,9 @@ a:hover{
         }
         #white_text{
             position: relative;
-            top: 167px;
-            margin-top:125%;
-            /* left:35px; */
+            top: -25px;
+            margin-top: 125%;
+          
             background-color: #EDF778;
          }
         #left{

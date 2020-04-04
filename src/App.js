@@ -48,10 +48,12 @@ class App extends React.Component {
             <Sidebar /*handleSwitch={this.handleSwitch} switched = {switched}*/ />
             {/* <Button handleSwitch = {this.handleSwitch}/> */}
             {/* <Button handleSwitch = {this.handleSwitch} switched = {true}/> */}
-            <label className="switch" >
+
+            {/* <label className="switch" >
                 <input type="checkbox"  onChange= {this.handleSwitch} checked = {true}/>
                 <span className="slider round"></span>
-            </label>
+            </label> */}
+
             <Switch >
               <Route exact path="/" component={Home2} />
               <Route path="/projects" component={Projects} />
