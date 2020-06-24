@@ -5,6 +5,8 @@ import { IoLogoJavascript } from 'react-icons/io'
 import { DiPostgresql } from 'react-icons/di'
 import logoYellow from '../logoYellow.svg';
 import Nav2 from './NavBar2';
+import Contact from './Contact';
+import About from './About';
 
 const Home2 = () => {
     return (
@@ -14,16 +16,11 @@ const Home2 = () => {
                 <div id='info'>
                     <div id='white_box'>
                         <div id='white_text'>
-                            <h1> Hi, I'm Briahana! </h1>
-                            <h2 id='join'> I am a full stack web developer.</h2>
-                            <p>Some of my skills include:</p>
-                            <FaHtml5 className='icon' />
-                            <FaCss3Alt className='icon' />
-                            <IoLogoJavascript className='icon' />
-                            <FaNode className='icon' />
-                            <FaReact className='icon' />
-                            <FaGitAlt className='icon' />
-                            <DiPostgresql className='icon' />
+                           <About/>
+                           <br/>
+                           <br/>
+                           <br/>
+                           <Contact/>
                         </div>
                     </div>
                 </div>
@@ -39,6 +36,7 @@ const Home2 = () => {
                 </div>
 
             </div>
+            
         </>
     )
 }
