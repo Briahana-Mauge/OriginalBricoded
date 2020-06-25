@@ -36,8 +36,8 @@ class HamburgerMenu extends React.Component {
           onStateChange={(state) => this.handleStateChange(state)}
         >
           <Link onClick={() => this.closeMenu()} className='menu-item' to="/">Home</Link>
-          <Link onClick={() => this.closeMenu()} className="menu-item" to="/about">About</Link>
-          <Link onClick={() => this.closeMenu()} className="menu-item" to="/contact">Contact</Link>
+          {/* <Link onClick={() => this.closeMenu()} className="menu-item" to="/about">About</Link> */}
+          {/* <Link onClick={() => this.closeMenu()} className="menu-item" to="/contact">Contact</Link> */}
           <Link onClick={() => this.closeMenu()} className="menu-item" to="/projects">Projects</Link>
           <Link onClick={() => this.closeMenu()} className="menu-item" to="/days-of-code">Days of Code</Link>
           <Button />
