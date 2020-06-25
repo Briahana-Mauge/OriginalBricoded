@@ -29,7 +29,6 @@ const Projects = () => {
                             target='_blank'
                             href='https://youtu.be/oaP1JNZTj6Q'
                             className='btn'
-
                             rel='noopener noreferrer'
                         >Demo</a></button>
                         <button>Github</button>
