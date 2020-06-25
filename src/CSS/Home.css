@@ -20,9 +20,15 @@
   
   
   #blackLogo {
-  width: 25%;
-  position: absolute;
-  left: 30px;
+    height: 30%;
+    width: 30%;
+    position: relative;
+    /* left: 30px; */
+    /* mar */
+    /* position: fixed; */
+  top: 5%; 
+  left: 35%; 
+ 
   }
 
 #content{
@@ -30,7 +36,9 @@
   flex-direction: column;
 }
 
-
+.about{
+  width: 100%;
+}
 
   .twitter{
     height: 200px;

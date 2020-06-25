@@ -1,31 +1,31 @@
 import React from 'react'
-import { FaHtml5, FaCss3Alt, FaNode, FaReact, FaGitAlt } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io'
-import { DiPostgresql } from 'react-icons/di'
+
 import '../CSS/Home.css'
 import logoBlack from '../logoBlack.svg';
+import About from './About';
+import Contact from './Contact';
+import Skills from './Skills';
 
 const Home = () => {
     return (
         <div id='content'>
             <img id='blackLogo' src={logoBlack} alt="logo in black" />
 
-            <div> <h1>Hi, I'm Briahana!</h1>
+            <div> 
+                {/* <h1>Hi, I'm Briahana!</h1>
 
-                <p>This YouTube clone was built by Briahana as part of her unit 4 assessment.</p>
-                <p>Technologies used for this project include Youtube's API, React, CSS and several npm packages, like 'react-youtube'. </p>
-                <p> On the home page, you can search for video and select your pick from the first 8 choices from your search. </p>
-
-
-                <p>Some of my skills include: </p>
-                <FaHtml5 className='icon' />
-                <FaCss3Alt className='icon' />
-                <IoLogoJavascript className='icon' />
-                <FaNode className='icon' />
-                <FaReact className='icon' />
-                <FaGitAlt className='icon' />
-                <DiPostgresql className='icon' />
+                <p>I am a full-stack software engineer who enjoys working on cross functional teams. </p>
+                <p>When I'm not building with React, you can find me snuggled in a corner reading or listening to my favorite podcasts.
+                Keep scrolling to view some of my projects. I look forward to connecting with you.
+                </p> */}
+<About/>
+<Skills/>
+                
             </div>
+            <br/> 
+            <br/> 
+            <br/>
+            <Contact/>
         </div>
     )
 }
