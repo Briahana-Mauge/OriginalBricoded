@@ -29,6 +29,8 @@
 }
 
 
-.icon{
+.icon, .contact{
   font-size: 40px;
+  padding-left: 0px;
+  color: black;
 }
