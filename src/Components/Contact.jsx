@@ -13,7 +13,7 @@ const Contact = (props) => {
                     target='_blank'
                     href='https://github.com/Briahana-Mauge'
                     className='icon contact'
-                    rel='noopener noreferrer'></a>
+                    rel='noopener noreferrer'>Github</a>
             </FaGithub>
 
 
@@ -23,7 +23,7 @@ const Contact = (props) => {
                     target='_blank'
                     href='https://www.linkedin.com/in/bmauge/'
                     className='icon contact'
-                    rel='noopener noreferrer'></a>
+                    rel='noopener noreferrer'>Linkedin</a>
             </FaLinkedinIn>
 
 
@@ -33,7 +33,7 @@ const Contact = (props) => {
                     target='_blank'
                     href='https://drive.google.com/file/d/1XX9OyRoHK7nzdmlKs1A0Zn0pqLa7bUKK/view?usp=sharing'
                     className='icon contact'
-                    rel='noopener noreferrer'></a>
+                    rel='noopener noreferrer'>Resume</a>
             </AiOutlineFilePdf>
 
 
@@ -41,7 +41,7 @@ const Contact = (props) => {
             <AiOutlineMail className={`icon contact ${props.className}`}>
                 <a
                     href='mailto:briahanamauge@pursuit.org'
-                    className='icon contact'></a>
+                    className='icon contact'>Email</a>
             </AiOutlineMail>
 
 
