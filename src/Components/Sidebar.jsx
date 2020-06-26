@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 import '../CSS/Sidebar.css'
-import Button from './Button';
+// import Button from './Button';
 import { connect } from 'react-redux';
 // import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 // import { AiOutlineFilePdf, AiOutlineMail } from 'react-icons/ai'
