@@ -43,3 +43,22 @@ button>a{
   color: black;
 }
 
+.skills{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+/* .blogo{
+  justify-content: center;
+} */
+.blackLogo{
+  height: 20%;
+width: 20%;
+position: relative;
+/* left: 30px; */
+/* mar */
+/* position: fixed; */
+/* top: 5%;  */
+/* left: 35%;  */
+}

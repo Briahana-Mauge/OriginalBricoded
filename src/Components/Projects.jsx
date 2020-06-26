@@ -5,11 +5,13 @@ import Twitter from '../images/twitter.png';
 import Endeavor from '../images/endeavor.png';
 import BrisViews from '../images/BrisViews1.png';
 import '../CSS/Projects.css';
+import Contact from './Contact';
+
 const Projects = () => {
     return (
         <>
             <h1>Projects</h1>
-
+<br/><br/>
             <div className='cards'>
 
                 <div class="card">
@@ -37,7 +39,9 @@ const Projects = () => {
                             className='btn'
                             rel='noopener noreferrer'>
                             Github</a></button>
-                        <p>Architect & Engineer</p>
+                        <p>
+                            A volunteer management full-stack app.
+                        </p>
                     </div>
                 </div>
                 <br></br>
@@ -53,8 +57,10 @@ const Projects = () => {
                             className='btn'
                             rel='noopener noreferrer'>
                             Github</a></button>
-                        
-                        <p>Architect & Engineer</p>
+
+                        <p>
+                        A social network consisting of micro social networks.
+                        </p>
                     </div>
                 </div>
                 <br></br>
@@ -79,16 +85,16 @@ const Projects = () => {
                             className='btn'
                             rel='noopener noreferrer'>
                             Live</a></button>
-                        
+
                         <button><a
                             target='_blank'
                             href='https://github.com/Briahana-Mauge/YouTube-Clone'
                             className='btn'
                             rel='noopener noreferrer'>
                             Github</a></button>
-                        
 
-                        <p>Architect & Engineer</p>
+
+                        <p>A simple cloned YouTube application.</p>
                     </div>
                 </div>
                 <br></br>
@@ -103,15 +109,15 @@ const Projects = () => {
                             className='btn'
                             rel='noopener noreferrer'>
                             Live</a></button>
-                        
+
                         <button><a
                             target='_blank'
                             href='https://github.com/Briahana-Mauge/Pokemon-Simulator'
                             className='btn'
                             rel='noopener noreferrer'>
                             Github</a></button>
-                        
-                        <p>Architect & Engineer</p>
+
+                        <p>An app that simulates Pokemon battles.</p>
                     </div>
                 </div>
                 <br></br>
@@ -128,8 +134,8 @@ const Projects = () => {
                             className='btn'
                             rel='noopener noreferrer'>
                             Github</a></button>
-                        
-                        <p>Architect & Engineer</p>
+
+                        <p>A recreation the homepage of Twitter.</p>
                     </div>
                 </div>
 
@@ -137,6 +143,10 @@ const Projects = () => {
 
 
             </div>
+            <br/><br/><br/><br/><br/>
+        <br/>
+            
+            <Contact/>
         </>
     )
 }

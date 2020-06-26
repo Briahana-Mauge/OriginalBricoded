@@ -164,7 +164,9 @@ a:hover{
     border-radius: 50%;
   }
 
-
+  .bm-burger-button{
+    visibility: hidden;
+  }
   
   @media only screen and (max-height: 660px){
  
@@ -195,16 +197,17 @@ a:hover{
     .nav{
         visibility: hidden;
     }
-    .login_small2{
+    .bm-burger-button{
         visibility: visible;
     }
+    
 }
 
 @media only screen and (max-width: 1115px) and (max-height: 500px) {
     .nav{
         visibility: hidden;
     }
-    .login_small2{
+    .bm-burger-button{
         visibility: visible;
     }
     #white_text{
@@ -213,10 +216,7 @@ a:hover{
     .small{
         font-size: 30px;
     }
-    .login_small2 {
-        padding: 7px;
-        font-size: 10px;
-    }
+
     .switch {
         position: relative;
         display: inline-block;
