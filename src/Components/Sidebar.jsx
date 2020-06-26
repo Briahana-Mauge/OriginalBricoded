@@ -4,8 +4,8 @@ import { slide as Menu } from "react-burger-menu";
 import '../CSS/Sidebar.css'
 import Button from './Button';
 import { connect } from 'react-redux';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { AiOutlineFilePdf, AiOutlineMail } from 'react-icons/ai'
+// import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+// import { AiOutlineFilePdf, AiOutlineMail } from 'react-icons/ai'
 import Contact from './Contact';
 
 class HamburgerMenu extends React.Component {
