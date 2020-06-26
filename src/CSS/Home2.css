@@ -192,7 +192,14 @@ a:hover{
     }
    
 }
-
+@media only screen and (max-width: 1024px){
+ 
+    #white_text{
+        position: relative;
+        margin-top: 120%;
+     }
+     
+}
    
 @media only screen and (max-width: 1115px){
     .nav{
@@ -356,8 +363,8 @@ a:hover{
     }
     #white_text{
         position: relative;
-        top: -25px;
-        margin-top: 78%;
+        /* top: -25px; */
+        margin-top: 139%;
         background-color: #EDF778;
         
      }
