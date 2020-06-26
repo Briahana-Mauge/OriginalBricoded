@@ -6,15 +6,20 @@ import Endeavor from '../images/endeavor.png';
 import BrisViews from '../images/BrisViews1.png';
 import '../CSS/Projects.css';
 import Contact from './Contact';
+import logoBlack from '../logoBlack.svg';
+
 
 const Projects = () => {
     return (
         <>
-            <h1>Projects</h1>
+       <img /*id='blackLogo'*/ src={logoBlack} alt="logo in black" className = 'blackLogo' />
+
+<Contact className = 'main'/>
+            {/* <h1>Projects</h1> */}
 <br/><br/>
             <div className='cards'>
 
-                <div class="card">
+                <div className="card">
                     {/* <img src={Endeavor} alt="Avatar" />
                     <iframe src='https://www.youtube.com/embed/oaP1JNZTj6Q'
                         frameborder='0'
@@ -143,10 +148,7 @@ const Projects = () => {
 
 
             </div>
-            <br/><br/><br/><br/><br/>
-        <br/>
             
-            <Contact/>
         </>
     )
 }
