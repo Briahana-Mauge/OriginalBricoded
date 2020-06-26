@@ -31,7 +31,12 @@ const Projects = () => {
                     <img src={Endeavor} alt="Avatar" />
                     <div class="container">
                         <h4><b>Endeavor</b></h4>
-                        <button>Live</button>
+                        <button><a
+                            target='_blank'
+                            href='https://endeavor-app.herokuapp.com/login'
+                            className='btn'
+                            rel='noopener noreferrer'
+                        >Live</a></button>
                         <button><a
                             target='_blank'
                             href='https://youtu.be/oaP1JNZTj6Q'
