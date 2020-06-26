@@ -3,7 +3,7 @@ import Pokemon from '../images/Pokemon.png';
 import Holding from '../images/holding.png';
 import Twitter from '../images/twitter.png';
 import Endeavor from '../images/endeavor.png';
-import BrisViews from '../images/BrisViews.png';
+import BrisViews from '../images/BrisViews1.png';
 import '../CSS/Projects.css';
 const Projects = () => {
     return (
@@ -31,7 +31,12 @@ const Projects = () => {
                             className='btn'
                             rel='noopener noreferrer'
                         >Demo</a></button>
-                        <button>Github</button>
+                        <button><a
+                            target='_blank'
+                            href='https://github.com/Briahana-Mauge/Endeavor'
+                            className='btn'
+                            rel='noopener noreferrer'>
+                            Github</a></button>
                         <p>Architect & Engineer</p>
                     </div>
                 </div>
@@ -42,13 +47,13 @@ const Projects = () => {
                     <div class="container">
                         <h4><b>holDING</b></h4>
                         <button disabled>Live</button>
-                        <a
+                        <button><a
                             target='_blank'
                             href='https://github.com/Briahana-Mauge/holDING'
                             className='btn'
                             rel='noopener noreferrer'>
-                            <button>Github</button>
-                        </a>
+                            Github</a></button>
+                        
                         <p>Architect & Engineer</p>
                     </div>
                 </div>
@@ -68,20 +73,20 @@ const Projects = () => {
                     <img src={BrisViews} alt="Avatar" />
                     <div class="container">
                         <h4><b>Bri's Views</b></h4>
-                        <a
+                        <button><a
                             target='_blank'
                             href='http://bris-views.herokuapp.com/'
                             className='btn'
                             rel='noopener noreferrer'>
-                            <button>Live</button>
-                        </a>
-                        <a
+                            Live</a></button>
+                        
+                        <button><a
                             target='_blank'
                             href='https://github.com/Briahana-Mauge/YouTube-Clone'
                             className='btn'
                             rel='noopener noreferrer'>
-                            <button>Github</button>
-                        </a>
+                            Github</a></button>
+                        
 
                         <p>Architect & Engineer</p>
                     </div>
@@ -92,20 +97,20 @@ const Projects = () => {
                     <img src={Pokemon} alt="Screenshot of Pokémon project" />
                     <div class="container">
                         <h4><b>Bri's PokéBattles</b></h4>
-                        <a
+                        <button><a
                             target='_blank'
                             href='https://bris-pokebattles.netlify.app/'
                             className='btn'
                             rel='noopener noreferrer'>
-                            <button>Live</button>
-                        </a>
-                        <a
+                            Live</a></button>
+                        
+                        <button><a
                             target='_blank'
                             href='https://github.com/Briahana-Mauge/Pokemon-Simulator'
                             className='btn'
                             rel='noopener noreferrer'>
-                            <button>Github</button>
-                        </a>
+                            Github</a></button>
+                        
                         <p>Architect & Engineer</p>
                     </div>
                 </div>
@@ -117,13 +122,13 @@ const Projects = () => {
                     <div class="container">
                         <h4><b>Twitter Clone</b></h4>
                         <button disabled>Live</button>
-                        <a
+                        <button><a
                             target='_blank'
                             href='https://github.com/Briahana-Mauge/Twitter-Clone'
                             className='btn'
                             rel='noopener noreferrer'>
-                            <button>Github</button>
-                        </a>
+                            Github</a></button>
+                        
                         <p>Architect & Engineer</p>
                     </div>
                 </div>
