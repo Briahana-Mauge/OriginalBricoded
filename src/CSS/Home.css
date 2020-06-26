@@ -19,17 +19,15 @@
   }
   
   
-  #blackLogo {
+  /* #blackLogo {
     height: 30%;
     width: 30%;
     position: relative;
-    /* left: 30px; */
-    /* mar */
-    /* position: fixed; */
+   
   top: 5%; 
   left: 35%; 
  
-  }
+  } */
 
 #content{
   display: flex;

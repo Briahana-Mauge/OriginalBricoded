@@ -8,7 +8,7 @@ import Contact from './Contact';
 const Skills = () => {
     return (
         <> <div >
-       <img id='blackLogo' src={logoBlack} alt="logo in black" className = 'blackLogo' />
+       <img /*id='blackLogo'*/ src={logoBlack} alt="logo in black" className = 'blackLogo' />
 </div>
 <br/><br/><br/><br/>
         <h1>Here is a peek at some of my skills as a full stack developer: </h1>
