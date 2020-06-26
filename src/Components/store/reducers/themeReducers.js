@@ -1,7 +1,7 @@
 import { RECEIVE_THEME } from '../actionTypes';
 
 const initialState = {
-  isThemeChanged: false,
+  isThemeChanged: true,
   
 }
 
