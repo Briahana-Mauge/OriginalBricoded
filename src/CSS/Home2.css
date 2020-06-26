@@ -455,7 +455,8 @@ a:hover{
     #white_text{
         position: relative;
         /* top: -25px; */
-        margin-top: 121%;
+         margin-top: 121%;
+        
         background-color: #EDF778;
      }
     #left{
@@ -484,6 +485,34 @@ a:hover{
         position: relative;
         top: -25px;
         margin-top: 81%;
+        background-color: #EDF778;
+     }
+    #left{
+        position: absolute;
+        height: 50vh;
+        width: 100%;
+    }
+    #blue_text{
+        position: relative;
+            margin-top: 0px;
+            color: #EDF778;
+    }
+    .switch {
+        margin-top: 0vh;
+        margin-left: 0vw;
+    }
+}
+@media only screen and (max-width: 414px){
+    #right{
+        position: absolute;
+        min-height: 50vh;
+        width: 100%;
+        background-color: #EDF778;
+    }
+    #white_text{
+        position: relative;
+        top: -25px;
+        margin-top: 95%;
         background-color: #EDF778;
      }
     #left{

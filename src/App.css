@@ -88,3 +88,12 @@ margin-bottom: 0px;
   width: 10%; color: #0000ff;
   fill: #0000ff;
 }
+@media only screen and (max-width: 559px){
+  .blackLogo{
+  height: 40%;
+  width: 40%;
+  position: relative; 
+  margin-bottom: 0px;
+  
+  }
+}
