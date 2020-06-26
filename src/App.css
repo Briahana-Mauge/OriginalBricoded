@@ -29,11 +29,17 @@
 }
 
 
-.icon, .contact{
+.contact{
   font-size: 40px;
+  padding-left: 0px;
+  color: black;
+}
+.icon{
+  font-size: 60px;
   padding-left: 0px;
   color: black;
 }
 button>a{
   color: black;
 }
+

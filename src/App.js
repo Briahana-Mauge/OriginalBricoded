@@ -9,6 +9,7 @@ import Thread from './Components/Thread'
 import NavBar from './Components/NavBar';
 import NavBar2 from './Components/NavBar2';
 import Sidebar from './Components/Sidebar';
+import Skills from './Components/Skills';
 import './App.css';
 import { connect} from 'react-redux';
 
@@ -28,6 +29,7 @@ const App = (props) => {
             <Switch >
               <Route exact path="/" component={Home2} />
               <Route path="/projects" component={Projects} />
+              <Route path="/skills" component={Skills} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
               <Route path="/days-of-code" component={Thread} />
