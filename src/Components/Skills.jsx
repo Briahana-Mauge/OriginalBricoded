@@ -7,14 +7,10 @@ import Contact from './Contact';
 
 const Skills = () => {
     return (
-        <> <div >
-            <img /*id='blackLogo'*/ src={logoBlack} alt="logo in black" className='blackLogo' />
-            <Contact className = 'main'/>
-        </div>
-            <br /><br />
+        <div>
             <h5>Here is a peek at some of my full stack developer skills: </h5>
 
-            <br />
+           
       
             <div className='skills'>
                 <label><IoLogoJavascript className='icon' /><p>CSS 3</p></label>
@@ -26,11 +22,7 @@ const Skills = () => {
                 <label><FaGithub className='icon' /><p>GitHub</p></label>
                 <label><FaGitAlt className='icon' /><p>Git</p></label>
             </div>
-            <br /><br /><br /><br /><br />
-            <br />
-
-
-        </>
+         </div>   
     )
 }
 export default Skills;

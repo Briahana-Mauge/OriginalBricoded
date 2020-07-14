@@ -7,16 +7,19 @@ import BrisViews from '../images/BrisViews1.png';
 import '../CSS/Projects.css';
 import Contact from './Contact';
 import logoBlack from '../logoBlack.svg';
+import NavBar2 from './NavBar2';
 
 
 const Projects = () => {
     return (
         <>
-       <img /*id='blackLogo'*/ src={logoBlack} alt="logo in black" className = 'blackLogo' />
+        <NavBar2  contact = 'other-pages' links = 'link'/>
+       {/* <img  src={logoBlack} alt="logo in black" className = 'blackLogo' /> */}
 
-<Contact className = 'main'/>
+{/* <Contact className = 'main'/> */}
             {/* <h1>Projects</h1> */}
 <br/><br/>
+{/* <br/><br/><br/><br/><br/><br/><br/> */}
             <div className='cards'>
 
                 <div className="card">
@@ -85,7 +88,7 @@ const Projects = () => {
                 </div>
                 <br></br> */}
 
-                <div class="card">
+                {/* <div class="card">
                     <img src={BrisViews} alt="Avatar" />
                     <div class="container">
                         <h4><b>Bri's Views</b></h4>
@@ -106,7 +109,7 @@ const Projects = () => {
 
                         <p>A simple cloned YouTube application.</p>
                     </div>
-                </div>
+                </div> */}
                 <br></br>
 
                 <div class="card">

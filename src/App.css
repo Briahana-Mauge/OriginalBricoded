@@ -17,7 +17,9 @@
   
 }
 
-
+label>p{
+  margin: 0;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -38,17 +40,17 @@
     color: #EDF778;
 }
 
-
-.contact{
-  font-size: 40px;
-  padding-left: 0px;
-  color: black;
-}
 .icon{
   font-size: 60px;
   margin-left: 10px;
   color: black;
 }
+.contact{
+  font-size: 35px;
+  padding-left: 0px;
+  color: #EDF778;
+}
+
 button>a{
   color: black;
 }
@@ -62,34 +64,108 @@ button>a{
 /* .blogo{
   justify-content: center;
 } */
-.blackLogo{
-  height: 10%;
-width: 10%;
-position: relative; 
-margin-bottom: 0px;
+
+  .blackLogo {
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    /* margin-bottom: 0px; */
+    left: 30px;
+    /* position: fixed; */
+    /* top: 5%; */
+    /* right: 39%; */
+
+/* position: relative;  */
+
 /* left: 30px; */
 /* mar */
 /* position: fixed; */
 /* top: 5%;  */
 /* left: 35%;  */
 }
+
 .menu{
   color: white;
-  font-size: 145%;
-  margin-left: 10px;
+  font-size: 1.15em;
+  /* margin-left: 10px; */
+  margin-top: 20px;
 }
-.main{
- 
-  font-size: 130%;
-  margin-top: 10px;
-  margin-left: 4px;
+.menu:hover p{
+  text-decoration: underline;
+  /* color: #215de9; */
+  visibility: visible;
+  font-size: 1em;
+}
+.menu:not(:hover) p{
+  font-size: 1.15em;
+  visibility: hidden;
+}
 
+.main{
+  font-size: 120%;
+  margin-top: 41px;
+  margin-left: 2.5px;
+  color: black;
 }
 .main:hover{
-  color:#215de9;
+  color: #215de9;
+}
+.main:hover p{
+  text-decoration: underline;
+  color: rgb(33, 93, 233);
+  visibility: visible;
+  font-size: 1rem;
+}
+.main:not(:hover) p{
+  visibility: hidden;
 }
 
-@media only screen and (max-width: 559px){
+.contact-icons{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-content: space-evenly;
+}
+.main{
+  display: inline-flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-content: space-evenly;
+  position: relative;
+  left: .75%;
+  /* margin-top: 2.5vw; */
+  /* margin-top: 2.5vw; */
+ }  
+.nav{
+  display: flex;
+  /* background-color: rgba(237, 247, 120, .6); */
+}
+.new-nav{
+  position: absolute;
+  left: 40%;
+  width: 700px;
+}
+.new-nav>a{
+  color: black;
+  font-weight: 700;
+  font-size: x-large;
+  margin-left: 5px;
+}
+.new-nav>a:hover{
+    text-decoration: underline;
+    color: #EDF778;
+}
+.link{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 206px;
+}
+.new-nav>a{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+/* @media only screen and (max-width: 559px){
   .blackLogo{
   height: 40%;
   width: 40%;
@@ -97,4 +173,4 @@ margin-bottom: 0px;
   margin-bottom: 0px;
   
   }
-}
+} */

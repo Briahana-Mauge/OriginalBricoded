@@ -2,18 +2,16 @@ import React from 'react'
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import Contact from './Contact';
 import logoBlack from '../logoBlack.svg';
+import NavBar2 from './NavBar2';
 
 
 const Thread = () => {
     return (
         <>
-         <img /*id='blackLogo'*/ src={logoBlack} alt="logo in black" className = 'blackLogo' />
-
-<Contact className = 'main'/>
-            
-<br/>
+         <NavBar2  contact = 'other-pages' links = 'link'/>
+            <>
             <div className='Tweets'>
-            <br></br><br></br><br></br><br></br>
+            <br></br><br></br>
                 <div className="centerContent">
                     <div className="selfCenter standardWidth">
                         <TwitterTimelineEmbed sourceType="collection"
@@ -22,6 +20,7 @@ const Thread = () => {
                     </div>
                 </div>
             </div>
+            </>
         </>
     )
 }

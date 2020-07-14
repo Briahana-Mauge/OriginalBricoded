@@ -4,6 +4,7 @@ import logoYellow from '../logoYellow.svg';
 import Nav2 from './NavBar2';
 import Contact from './Contact';
 import About from './About';
+import Skills from './Skills';
 
 const Home2 = () => {
     return (
@@ -14,10 +15,11 @@ const Home2 = () => {
                     <div id='white_box'>
                         <div id='white_text'>
                            <About/>
+                           <Skills/>
+                           {/* <br/>
                            <br/>
-                           <br/>
-                           <br/>
-                           <Contact/>
+                           <br/> */}
+                    
                         </div>
                     </div>
                 </div>
@@ -26,12 +28,13 @@ const Home2 = () => {
             <div id='left'>
                 <Nav2 />
                 <div id='blue_text'>
-                    <img src = {logoYellow} alt='logo here' />
+                    <img src = {logoYellow} alt='logo here'/>
                     {/* <h1>BriCoded</h1> */}
                     {/* <p> We've added tons of cool features, including ...</p> */}
 
                 </div>
-
+<br/>
+<Contact className = 'home'/>
             </div>
             
         </>
