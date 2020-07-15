@@ -7,9 +7,9 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Thread from './Components/Thread'
 import NavBar from './Components/NavBar';
-import NavBar2 from './Components/NavBar2';
+// import NavBar2 from './Components/NavBar2';
 import Sidebar from './Components/Sidebar';
-import Skills from './Components/Skills';
+// import Skills from './Components/Skills';
 import './App.css';
 import { connect} from 'react-redux';
 
