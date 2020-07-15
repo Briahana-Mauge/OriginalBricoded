@@ -3,10 +3,10 @@ import Pokemon from '../images/Pokemon.png';
 import Holding from '../images/holding.png';
 import Twitter from '../images/twitter.png';
 import Endeavor from '../images/endeavor.png';
-import BrisViews from '../images/BrisViews1.png';
+// import BrisViews from '../images/BrisViews1.png';
 import '../CSS/Projects.css';
-import Contact from './Contact';
-import logoBlack from '../logoBlack.svg';
+// import Contact from './Contact';
+// import logoBlack from '../logoBlack.svg';
 import NavBar2 from './NavBar2';
 
 
@@ -18,6 +18,7 @@ const Projects = () => {
 
 {/* <Contact className = 'main'/> */}
             {/* <h1>Projects</h1> */}
+<br/><br/>
 <br/><br/>
 {/* <br/><br/><br/><br/><br/><br/><br/> */}
             <div className='cards'>

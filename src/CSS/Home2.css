@@ -4,6 +4,7 @@ html, body{
     background-color: white;
 }
 
+
 .app2{
     border: hidden;
 }
@@ -86,6 +87,9 @@ h1{
 a{
     color:#aab8c2;
     text-decoration: none;
+}
+.home {
+    margin-top: 6px;
 }
 .home:hover p{
     text-decoration: underline;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { TwitterTimelineEmbed } from "react-twitter-embed";
-import Contact from './Contact';
-import logoBlack from '../logoBlack.svg';
+// import Contact from './Contact';
+import logoBlack from '..//logoBlack.svg';
 import NavBar2 from './NavBar2';
 
 

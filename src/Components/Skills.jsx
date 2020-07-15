@@ -2,8 +2,8 @@ import React from 'react'
 import { FaHtml5, FaCss3Alt, FaNode, FaReact, FaGitAlt, FaGithub } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io'
 import { DiPostgresql } from 'react-icons/di'
-import logoBlack from '../logoBlack.svg';
-import Contact from './Contact';
+// import logoBlack from '../logoBlack.svg';
+// import Contact from './Contact';
 
 const Skills = () => {
     return (

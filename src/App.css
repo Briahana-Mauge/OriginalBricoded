@@ -49,6 +49,7 @@ label>p{
   font-size: 35px;
   padding-left: 0px;
   color: #EDF778;
+  margin-left: 0px;
 }
 
 button>a{
@@ -103,8 +104,7 @@ button>a{
 
 .main{
   font-size: 120%;
-  margin-top: 41px;
-  margin-left: 2.5px;
+  margin-top: 44px;
   color: black;
 }
 .main:hover{
@@ -121,21 +121,20 @@ button>a{
 }
 
 .contact-icons{
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  align-content: space-evenly;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px;
+  justify-items: center;
 }
-.main{
+/* .main{
   display: inline-flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   align-content: space-evenly;
   position: relative;
   left: .75%;
-  /* margin-top: 2.5vw; */
-  /* margin-top: 2.5vw; */
- }  
+
+ }   */
 .nav{
   display: flex;
   /* background-color: rgba(237, 247, 120, .6); */
