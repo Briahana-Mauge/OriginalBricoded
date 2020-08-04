@@ -13,14 +13,14 @@ const Skills = () => {
            
       
             <div className='skills'>
-                <label><IoLogoJavascript className='icon' /><p>CSS 3</p></label>
-                <label><FaHtml5 className='icon' /><p>HTML 5</p></label>
-                <label><FaCss3Alt className='icon' /><p>CSS 3</p></label>
-                <label><DiPostgresql className='icon' /><p>PostgreSQL</p></label>
-                <label><FaReact className='icon' /><p>React</p></label>
-                <label><FaNode className='icon' /><p>NodeJS</p></label>
-                <label><FaGithub className='icon' /><p>GitHub</p></label>
-                <label><FaGitAlt className='icon' /><p>Git</p></label>
+                <label className = 'skill'><IoLogoJavascript className='icon ' /><p>Javascript</p></label>
+                <label className = 'skill'><FaHtml5 className='icon ' /><p>HTML 5</p></label>
+                <label className = 'skill'><FaCss3Alt className='icon ' /><p>CSS 3</p></label>
+                <label className = 'skill'><DiPostgresql className='icon ' /><p>PostgreSQL</p></label>
+                <label className = 'skill'><FaReact className='icon ' /><p>React</p></label>
+                <label className = 'skill'><FaNode className='icon ' /><p>NodeJS</p></label>
+                <label className = 'skill'><FaGithub className='icon ' /><p>GitHub</p></label>
+                <label className = 'skill'><FaGitAlt className='icon ' /><p>Git</p></label>
             </div>
          </div>   
     )

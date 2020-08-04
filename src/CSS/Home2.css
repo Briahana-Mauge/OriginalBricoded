@@ -422,7 +422,8 @@ a{
 @media only screen and (max-width: 559px){
         #right{
             position: absolute;
-            min-height: 50vh;
+            /* min-height: 50vh; */
+            min-height: 120vh;
             width: 100%;
             background-color: #EDF778;
         }

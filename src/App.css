@@ -120,6 +120,17 @@ button>a{
   visibility: hidden;
 }
 
+
+.skill:hover p{
+  visibility: visible;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+.skill:not(:hover) p{
+  visibility: hidden;
+}
+
 .contact-icons{
   display: grid;
   flex-wrap: wrap;
