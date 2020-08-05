@@ -5,7 +5,7 @@ import '../CSS/NavBar.css';
 import { connect } from 'react-redux';
 import Contact from './Contact';
 import logoBlack from '../logoBlack.svg';
-
+import crownYellow from '../crown_yellow.PNG';
 const NavBar = (props) => {
   if(props.contact){
   return (
@@ -16,6 +16,7 @@ const NavBar = (props) => {
       <Contact className={`main ${props.contact}`} />
       </div>
       <header className= {`nav2 ${props.links}`}>
+      
         <div className = 'new-nav'>
         <Link to="/">Home</Link> {' '}
         <Link to="/Projects">Projects</Link>{' '}
@@ -30,10 +31,12 @@ const NavBar = (props) => {
   return (
     <div className="nav">
       <header className='nav2'>
-
-        <Link to="/">Home</Link> {' '}
-        <Link to="/Projects">Projects</Link>{' '}
-        <Link to="/days-of-code">Days Of Code</Link>{' '}
+      
+        <Link to="/"><img className = 'crown' src = {crownYellow} ></img>Home</Link> {' '}
+        {/* <img className = 'crown' src = {crownYellow}></img> */}
+        <Link to="/Projects"><img className = 'crown' src = {crownYellow} ></img>Projects</Link>{' '}
+        {/* <img className = 'crown' src = {crownYellow}></img>         */}
+        <Link to="/days-of-code"><img className = 'crown' src = {crownYellow} ></img>Days Of Code</Link>{' '}
         {/* <Button /> */}
       </header>
 
