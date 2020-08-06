@@ -3,43 +3,88 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { AiOutlineFilePdf, AiOutlineMail } from 'react-icons/ai'
 
 const Contact = (props) => {
-    return (
-        <div className = {`contact-icons ${props.className}`}>
-            {/* <h1>Contact</h1> */}
+    console.log(props)
+    if (props.className === 'main other-pages') {
+        return (
+            <div className={`contact-icons ${props.className}`}>
+                <a
+                    target='_blank'
+                    href='https://github.com/Briahana-Mauge'
+                    className={`icon contact ${props.className}`}
+                    rel='noopener noreferrer'
+                    title='GitHub'>
+                    <label><FaGithub className={`icon contact ${props.className}`} /><p className='label-name'>GitHub</p></label>
+                </a>
 
-            <a
-                target='_blank'
-                href='https://github.com/Briahana-Mauge'
-                className={`icon contact ${props.className}`}
-                rel='noopener noreferrer'
-                title = 'GitHub'>
-                <label><FaGithub className={`icon contact ${props.className}`} /><p className = 'label-name'>GitHub</p></label>
-            </a>
+                <a
+                    target='_blank'
+                    href='https://www.linkedin.com/in/bmauge/'
+                    className={`icon contact ${props.className}`}
+                    rel='noopener noreferrer'>
+                    <label><FaLinkedinIn className={`icon contact ${props.className}`} /><p>LinkedIn</p></label>
+                </a>
 
-            <a
-                target='_blank'
-                href='https://www.linkedin.com/in/bmauge/'
-                className={`icon contact ${props.className}`}
-                rel='noopener noreferrer'>
-                <label><FaLinkedinIn className={`icon contact ${props.className}`} /><p>Linked In</p></label>
-            </a>
+                <a
+                    target='_blank'
+                    href='https://drive.google.com/file/d/1XX9OyRoHK7nzdmlKs1A0Zn0pqLa7bUKK/view?usp=sharing'
+                    className={`icon contact ${props.className}`}
+                    rel='noopener noreferrer'>
+                    <label><AiOutlineFilePdf className={`icon contact ${props.className}`} /><p>Resume</p></label>
+                </a>
 
-            <a
-                target='_blank'
-                href='https://drive.google.com/file/d/1XX9OyRoHK7nzdmlKs1A0Zn0pqLa7bUKK/view?usp=sharing'
-                className={`icon contact ${props.className}`}
-                rel='noopener noreferrer'>
-                <label><AiOutlineFilePdf className={`icon contact ${props.className}`} /><p>Resume</p></label>
-            </a>
+                <a
+                    href='mailto:briahanamauge@pursuit.org'
+                    className={`icon contact ${props.className}`}>
+                    <label><AiOutlineMail className={`icon contact ${props.className}`} /><p>Email</p></label>
+                </a>
 
-            <a
-                href='mailto:briahanamauge@pursuit.org'
-                className={`icon contact ${props.className}`}>
-                <label><AiOutlineMail className={`icon contact ${props.className}`} /><p>Email</p></label>
-            </a>
+            </div>
+        )
+    } else {
+        return (
+            <div className={`contact-icons ${props.className}`}>
+                <a
+                    target='_blank'
+                    href='https://github.com/Briahana-Mauge'
+                    className={`icon contact ${props.className}`}
+                    rel='noopener noreferrer'
+                    title='GitHub'
+                     onMouseEnter={() => { return (props.setIsShown('Github'), props.setFiller('GitHub')) }}
+                    onMouseLeave={() => { return (props.setIsShown(false), props.setFiller('')) }}>
+                    <label ><FaGithub className={`icon contact ${props.className}`} /><p className='label-name'>GitHub</p></label>
+                </a>
 
-        </div>
-    )
+                <a
+                    target='_blank'
+                    href='https://www.linkedin.com/in/bmauge/'
+                    className={`icon contact ${props.className}`}
+                    rel='noopener noreferrer'
+                    onMouseEnter={() => { return (props.setIsShown('Linked In'), props.setFiller('LinkedIn')) }}
+                    onMouseLeave={() => { return (props.setIsShown(false), props.setFiller('')) }} >
+                    <label><FaLinkedinIn className={`icon contact ${props.className}`} /><p>LinkedIn</p></label>
+                </a>
+
+                <a
+                    target='_blank'
+                    href='https://drive.google.com/file/d/1XX9OyRoHK7nzdmlKs1A0Zn0pqLa7bUKK/view?usp=sharing'
+                    className={`icon contact ${props.className}`}
+                    rel='noopener noreferrer'
+                    onMouseEnter={() => { return (props.setIsShown('Resume'), props.setFiller('Résumé')) }}
+                    onMouseLeave={() => { return (props.setIsShown(false), props.setFiller('')) }} >
+                    <label><AiOutlineFilePdf className={`icon contact ${props.className}`} /><p>Resume</p></label>
+                </a>
+
+                <a
+                    href='mailto:briahanamauge@pursuit.org'
+                    className={`icon contact ${props.className}`}
+                    onMouseEnter={() => { return (props.setIsShown('Email'), props.setFiller('Email')) }}
+                    onMouseLeave={() => { return (props.setIsShown(false), props.setFiller('')) }} >
+                    <label><AiOutlineMail className={`icon contact ${props.className}`} /><p>Email</p></label>
+                </a>
+
+            </div>
+        )
+    }
 }
 
 export default Contact;
