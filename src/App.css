@@ -29,6 +29,7 @@ label>p{
     transform: rotate(360deg);
   }
 }
+
 .crown{
   height: 80px;
   width: 80px;
@@ -41,16 +42,16 @@ label>p{
   color: black;
   font-weight: 700;
   font-size: x-large;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 .nav2>a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #EDF778;  
-}
+} 
+
 
 .icon{
   font-size: 60px;
-  margin-left: 10px;
   color: black;
 }
 .contact{
@@ -59,7 +60,9 @@ label>p{
   color: #EDF778;
   margin-left: 0px;
 }
-
+.container{
+  color: white;
+}
 button>a{
   color: black;
 }
@@ -73,8 +76,9 @@ button>a{
 .skills{
 display: grid;
 flex-wrap: wrap;
-grid-template-columns: 80px 80px 80px 80px;
+grid-template-columns: 100px 100px 100px 100px;
 grid-template-rows: 80px 80px;
+grid-row-gap: 5px;
 justify-items: center;
 }
 
@@ -147,11 +151,19 @@ justify-items: center;
   visibility: hidden;
 }
 
-a:hover .crown {
+.nav2>a:hover .crown {
   visibility: visible;
 }
-a:not(:hover) .crown {
+.nav2>a:not(:hover) .crown {
   visibility: hidden;
+}
+
+.nav2>a>p{
+  display: inline-block;
+}
+.nav2>a>p:hover{
+  border-bottom: 2px solid #EDF778;
+  padding-bottom: 8px;
 }
 
 .contact-icons{
@@ -184,10 +196,11 @@ a:not(:hover) .crown {
   font-size: x-large;
   margin-left: 5px;
 }
-.new-nav>a:hover{
+/* .new-nav>a:hover{
     text-decoration: underline;
     color: #EDF778;
-}
+} */
+
 .link{
   position: absolute;
   top: 80px;

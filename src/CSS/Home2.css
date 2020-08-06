@@ -4,7 +4,25 @@ html, body{
     background-color: white;
 }
 
+.filler{
+    position: absolute;
+    color: #EDF778;
+    top: 34%;
+    width: 62%;
+    font-weight: bolder;
+    display: inline-grid;
+    grid-template-columns: 75px 75px 20vh 75px 75px;
 
+  }
+  .filler>p{
+    grid-column: 3;
+    grid-row: 3/5;
+    margin:0;
+    display: inline-flex;
+    font-size:44px;
+    justify-content: center;
+  }
+  
 .app2{
     border: hidden;
 }
@@ -74,7 +92,7 @@ h1{
 #blue_text{
    max-width: 440px;
    padding: 16px;
-   color: #EDF778;
+   color: #EDF778;  
 }
 .heading{
     font-size: 20px;

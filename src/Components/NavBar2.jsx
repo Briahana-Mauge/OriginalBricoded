@@ -15,7 +15,7 @@ const NavBar = (props) => {
         
       <Contact className={`main ${props.contact}`} />
       </div>
-      <header className= {`nav2 ${props.links}`}>
+      <header className= /*nav2*/  {` ${props.links}`}>
       
         <div className = 'new-nav'>
         <Link to="/">Home</Link> {' '}
@@ -32,9 +32,9 @@ const NavBar = (props) => {
     <div className="nav">
       <header className='nav2'>
       
-        <Link to="/"><img className = 'crown' src = {crownYellow} alt = 'small crown in yellow hovering over "home" button'></img>Home</Link> {' '}
-        <Link to="/Projects"><img className = 'crown' src = {crownYellow} alt = 'small crown in yellow hovering over "projects" button'></img>Projects</Link>{' '}
-        <Link to="/days-of-code"><img className = 'crown' src = {crownYellow} alt = 'small crown in yellow hovering over "days of code" button'></img>Days Of Code</Link>{' '}
+        <Link to="/"><img className = 'crown' src = {crownYellow} alt = 'small crown in yellow hovering over "home" button'></img><p>Home</p></Link> {' '}
+        <Link to="/Projects"><img className = 'crown' src = {crownYellow} alt = 'small crown in yellow hovering over "projects" button'></img><p>Projects</p></Link>{' '}
+        <Link to="/days-of-code"><img className = 'crown' src = {crownYellow} alt = 'small crown in yellow hovering over "days of code" button'></img><p>Days Of Code</p></Link>{' '}
         {/* <Button /> */}
       </header>
 
