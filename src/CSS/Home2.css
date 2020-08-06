@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
 html, body{
     height: 100%;
     margin: 0;
@@ -7,6 +9,7 @@ html, body{
 .filler{
     position: absolute;
     color: #EDF778;
+    font-family: 'Vidaloka', serif;
     top: 34%;
     width: 62%;
     font-weight: bolder;

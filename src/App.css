@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
 .app {
   text-align: center;
   background-color: white;
@@ -40,6 +42,7 @@ label>p{
 
 .nav2>a{
   color: black;
+  font-family: 'Vidaloka', serif;
   font-weight: 700;
   font-size: x-large;
   /* margin-left: 15px; */
@@ -47,21 +50,24 @@ label>p{
 .nav2>a:hover{
     /* text-decoration: underline; */
     color: #EDF778;  
+    font-family: 'Vidaloka', serif;
 } 
 
 
 .icon{
   font-size: 60px;
   color: black;
+  
 }
 .contact{
   font-size: 35px;
   padding-left: 0px;
   color: #EDF778;
+  font-family: 'Vidaloka', serif;
   margin-left: 0px;
 }
 .container{
-  color: white;
+  background-color: white;
 }
 button>a{
   color: black;
@@ -140,7 +146,9 @@ justify-items: center;
   visibility: hidden;
 }
 
-
+.skill, h4{
+  font-family: 'Vidaloka', serif;
+}
 .skill:hover p{
   visibility: visible;
   font-size: 1rem;
@@ -192,6 +200,7 @@ justify-items: center;
 }
 .new-nav>a{
   color: black;
+  font-family: 'Vidaloka', serif;
   font-weight: 700;
   font-size: x-large;
   margin-left: 5px;
