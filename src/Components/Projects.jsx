@@ -141,7 +141,12 @@ const Projects = () => {
                     <img src={Twitter} alt="ScreenShot of Twitter Project" />
                     <div class="container">
                         <h4><b>Twitter Clone</b></h4>
-                        <button disabled>Live</button>
+                        <button><a 
+                        target='_blank'
+                        href = 'https://briahana-mauge.github.io/Twitter-Clone/'
+                        className = 'btn'
+                        rel='noopener noreferrer'>
+                            Live</a></button>
                         <button><a
                             target='_blank'
                             href='https://github.com/Briahana-Mauge/Twitter-Clone'
