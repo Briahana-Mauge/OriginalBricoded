@@ -26,7 +26,7 @@ const Contact = (props) => {
 
                 <a
                     target='_blank'
-                    href='https://drive.google.com/file/d/1XX9OyRoHK7nzdmlKs1A0Zn0pqLa7bUKK/view?usp=sharing'
+                    href='https://docs.google.com/document/d/1mIMbMChCLFeGLR2leAZxgg0ArX7juJlKLCcp71IYJF0/edit?usp=sharing'
                     className={`icon contact ${props.className}`}
                     rel='noopener noreferrer'>
                     <label><AiOutlineFilePdf className={`icon contact ${props.className}`} /><p>Resume</p></label>
@@ -66,7 +66,7 @@ const Contact = (props) => {
 
                 <a
                     target='_blank'
-                    href='https://drive.google.com/file/d/1XX9OyRoHK7nzdmlKs1A0Zn0pqLa7bUKK/view?usp=sharing'
+                    href='https://docs.google.com/document/d/1mIMbMChCLFeGLR2leAZxgg0ArX7juJlKLCcp71IYJF0/edit?usp=sharing'
                     className={`icon contact ${props.className}`}
                     rel='noopener noreferrer'
                     onMouseEnter={() => { return (props.setIsShown('Resume'), props.setFiller('Résumé')) }}
