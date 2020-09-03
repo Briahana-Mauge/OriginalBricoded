@@ -1,0 +1,14 @@
+
+.thread{
+    /* background-color: rgb(32, 92, 233); */
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+.Tweets{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.BackToTop{
+    color: #215de9;
+
+}
