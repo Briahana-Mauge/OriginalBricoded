@@ -9,7 +9,7 @@ import '../CSS/Projects.css';
 // import logoBlack from '../logoBlack.svg';
 import NavBar2 from './NavBar2';
 // import BackToTop from "react-back-to-top-button";
-import { FaArrowUp } from 'react-icons/fa';
+// import { FaArrowUp } from 'react-icons/fa';
 import BackToTop from './BackToTop';
 
 

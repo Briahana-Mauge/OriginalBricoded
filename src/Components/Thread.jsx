@@ -5,7 +5,7 @@ import '../CSS/Thread.css';
 // import Contact from './Contact';
 // import logoBlack from '../logoBlack.svg';
 import NavBar2 from './NavBar2';
-import { FaArrowUp } from 'react-icons/fa';
+// import { FaArrowUp } from 'react-icons/fa';
 import BackToTop from './BackToTop';
 
 
