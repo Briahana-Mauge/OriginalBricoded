@@ -8,12 +8,15 @@ import '../CSS/Projects.css';
 // import Contact from './Contact';
 // import logoBlack from '../logoBlack.svg';
 import NavBar2 from './NavBar2';
+// import BackToTop from "react-back-to-top-button";
+import { FaArrowUp } from 'react-icons/fa';
+import BackToTop from './BackToTop';
 
 
 const Projects = () => {
     return (
-        <div className = 'projects'>
-        <NavBar2  contact = 'other-pages' links = 'link'/>
+        <div className='projects'>
+            <NavBar2 contact='other-pages' links='link' />
 
             <div className='cards'>
                 <div className="card">
@@ -66,7 +69,7 @@ const Projects = () => {
                             Github</a></button>
 
                         <p>
-                        A social network consisting of micro social networks.
+                            A social network consisting of micro social networks.
                         </p>
                     </div>
                 </div>
@@ -79,13 +82,13 @@ const Projects = () => {
                         <button disabled>Live</button>
                         <button><a
                             target='_blank'
-                            href='https://github.com/Briahana-Mauge/holDING'
+                            href='https://github.com/Briahana-Mauge/BriFlix'
                             className='btn'
                             rel='noopener noreferrer'>
                             Github</a></button>
 
                         <p>
-                        A social network consisting of micro social networks.
+                            Track and comment on your favorite TV shows and movies.
                         </p>
                     </div>
                 </div>
@@ -154,11 +157,11 @@ const Projects = () => {
                     <img src={Twitter} alt="ScreenShot of Twitter Project" />
                     <div class="container">
                         <h4><b>Twitter Clone</b></h4>
-                        <button><a 
-                        target='_blank'
-                        href = 'https://briahana-mauge.github.io/Twitter-Clone/'
-                        className = 'btn'
-                        rel='noopener noreferrer'>
+                        <button><a
+                            target='_blank'
+                            href='https://briahana-mauge.github.io/Twitter-Clone/'
+                            className='btn'
+                            rel='noopener noreferrer'>
                             Live</a></button>
                         <button><a
                             target='_blank'
@@ -170,13 +173,9 @@ const Projects = () => {
                         <p>A recreation the homepage of Twitter.</p>
                     </div>
                 </div>
-
-
-
-
             </div>
-            
-        </div>
+            <BackToTop page={'project'} />
+        </div >
     )
 }
 
