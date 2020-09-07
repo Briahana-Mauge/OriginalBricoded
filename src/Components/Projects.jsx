@@ -3,7 +3,7 @@ import Pokemon from '../images/Pokemon.png';
 import Holding from '../images/holding.png';
 import Twitter from '../images/twitter.png';
 import Endeavor from '../images/endeavor.png';
-// import BrisViews from '../images/BrisViews1.png';
+import BriFlix from '../images/BriFlix.png';
 import '../CSS/Projects.css';
 // import Contact from './Contact';
 // import logoBlack from '../logoBlack.svg';
@@ -12,17 +12,10 @@ import NavBar2 from './NavBar2';
 
 const Projects = () => {
     return (
-        <>
+        <div className = 'projects'>
         <NavBar2  contact = 'other-pages' links = 'link'/>
-       {/* <img  src={logoBlack} alt="logo in black" className = 'blackLogo' /> */}
 
-{/* <Contact className = 'main'/> */}
-            {/* <h1>Projects</h1> */}
-<br/><br/>
-<br/><br/>
-{/* <br/><br/><br/><br/><br/><br/><br/> */}
             <div className='cards'>
-
                 <div className="card">
                     {/* <img src={Endeavor} alt="Avatar" />
                     <iframe src='https://www.youtube.com/embed/oaP1JNZTj6Q'
@@ -78,6 +71,26 @@ const Projects = () => {
                     </div>
                 </div>
                 <br></br>
+
+                <div class="card">
+                    <img src={BriFlix} alt="Screenshot of BriFlix project" />
+                    <div class="container">
+                        <h4><b>BriFlix</b></h4>
+                        <button disabled>Live</button>
+                        <button><a
+                            target='_blank'
+                            href='https://github.com/Briahana-Mauge/holDING'
+                            className='btn'
+                            rel='noopener noreferrer'>
+                            Github</a></button>
+
+                        <p>
+                        A social network consisting of micro social networks.
+                        </p>
+                    </div>
+                </div>
+                <br></br>
+
                 {/* <div class="card">
                     <img src={Pokemon} alt="Avatar" />
                     <div class="container">
@@ -163,7 +176,7 @@ const Projects = () => {
 
             </div>
             
-        </>
+        </div>
     )
 }
 
