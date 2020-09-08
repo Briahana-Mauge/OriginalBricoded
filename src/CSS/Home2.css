@@ -288,7 +288,7 @@ a{
     #white_text {
         position: relative;
         top: 45px;
-        margin-top: 70%;
+        margin-top: 60%;
     }
     #left{
         position: absolute;
@@ -460,8 +460,8 @@ a{
     #white_text{
         position: relative;
         background-color: #EDF778;
-        top: 45px;
-        margin-top: 70%;
+        /* top: 45px; */
+        margin-top: 60%;
         
      }
     #left{
@@ -498,8 +498,15 @@ a{
     .filler>p{
         font-size: 36px;
         }  
+    h1{
+        font-size:22px;
+    }
+    .about>p{
+        font-size: 14px;
+    }
 }
-@media only screen and (min-width: 716px) and (max-width:768){
+
+@media only screen and (min-width: 716px) and (max-width:767){
     #right{
         position: absolute;
         min-height: 50vh;
@@ -559,7 +566,7 @@ a{
         }
         #white_text{
             position: relative;
-            margin-top: 75%;
+            margin-top: 65%;
             background-color: #EDF778;
          }
         #left{
@@ -569,7 +576,7 @@ a{
         }
         #blue_text{
             position: relative;
-                margin-top: 0px;
+                margin-top: -10%;
                 color: #EDF778;
         }
         .switch {
