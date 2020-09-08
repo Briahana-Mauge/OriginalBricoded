@@ -11,7 +11,7 @@ html, body{
     position: absolute;
     color: #EDF778;
     font-family: 'Vidaloka', serif;
-    top: 34%;
+    top: 33%;
     width: 62%;
     font-weight: bolder;
     display: inline-grid;
@@ -493,7 +493,7 @@ a{
         width: 50%;
         font-weight: bolder;
         display: inline-grid;
-        grid-template-columns: 25px 25px 16vh 25px 25px;
+        grid-template-columns: 25px 25px 18vh 25px 25px;
         }
     .filler>p{
         font-size: 36px;
