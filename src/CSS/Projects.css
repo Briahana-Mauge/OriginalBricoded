@@ -1,3 +1,8 @@
+
+/* .nav{
+  padding: 35px;
+} */
+
 .projects{
   display: grid;
     grid-template-rows: 10% auto;
@@ -73,6 +78,17 @@
     color: #215de9;
   
 }
+/* .link{
+  padding: 35px;
+}
+.page-link>a:hover{
+  color: black;  
+} 
+.page-link>a>p:hover{
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+} */
+
   @media only screen and (max-width: 1286px) {
     /* .card { */
         /* width: 350px; */

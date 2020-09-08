@@ -2,7 +2,7 @@
 .thread{
     /* background-color: rgb(32, 92, 233); */
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows:7% 90%;
 }
 .Tweets{
     margin-left: 20%;

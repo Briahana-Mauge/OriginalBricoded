@@ -9,9 +9,11 @@
   /* border-image: url("./images/cheetahprint.jpg") 30 round; */
 }
 /* import */
-
-#root{
+html, body{
   background-color: white;
+}
+#root{
+  /* background-color: white; */
   min-height: 100vh;
   text-align: center;
   /* border: 1.5em solid ;
@@ -23,13 +25,15 @@ label>p{
   margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link{
+  padding: 35px;
+}
+.page-link>a:hover{
+  color: black;  
+} 
+.page-link>a>p:hover{
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
 }
 
 .crown{
@@ -47,7 +51,7 @@ label>p{
   font-size: x-large;
   /* margin-left: 15px; */
 }
-.nav2>a:hover{
+.main-nav2>a:hover{
     /* text-decoration: underline; */
     color: #EDF778;  
     font-family: 'Vidaloka', serif;
@@ -169,7 +173,7 @@ justify-items: center;
 .nav2>a>p{
   display: inline-block;
 }
-.nav2>a>p:hover{
+.main-nav2>a>p:hover{
   border-bottom: 2px solid #EDF778;
   padding-bottom: 8px;
 }
@@ -209,17 +213,24 @@ justify-items: center;
     text-decoration: underline;
     color: #EDF778;
 } */
-
+/* 
 .link{
   position: absolute;
   top: 80px;
   left: 0;
   right: 206px;
-}
+} */
 .new-nav>a{
   margin-left: 60px;
   margin-right: 60px;
 }
+
+.timeline-Widget {
+  /* max-width: 1200px; */
+  background-color: #fff;
+  border-radius: 5px;
+}
+
 /* @media only screen and (max-width: 559px){
   .blackLogo{
   height: 40%;
