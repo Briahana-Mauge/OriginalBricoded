@@ -8,7 +8,25 @@
     margin-left: 20%;
     margin-right: 20%;
 }
-.BackToTop{
+.BackToTop-thread{
     color: #215de9;
-
 }
+
+@media only screen and (max-width: 450px) {
+    .thread{
+        /* background-color: rgb(32, 92, 233); */
+        display: grid;
+        grid-template-rows: 5% 95%;
+    }
+    
+    .Tweets{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .BackToTop-thread {
+        position: relative;
+        left: 50px;
+    }
+  
+  }

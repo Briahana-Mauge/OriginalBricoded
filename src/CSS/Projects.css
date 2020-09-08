@@ -1,17 +1,38 @@
-.card {
+.projects{
+  display: grid;
+    grid-template-rows: 10% auto;
+}
+.cards{
+      /* display: flex;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      width:100%; */
+      display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    row-gap: 10px; 
+    column-gap: 10px;
+  }
+  .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 65%;
-    
+    /* width: 30%; */
+    width: 450px;
+    height: 500px;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
   }
   .card>img{
+    /* width: 100%;
+    height: 100%; */
+    /* width:300px; */
     width: 100%;
-    height: 100%;
+    height: 300px;
     border-style: inset;
     /* border-color: green; */
     border-bottom-color: black;
@@ -35,14 +56,7 @@
       border-color: transparent; 
       border-bottom: violet;
   }
-  .cards{
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: auto;
-      margin-right: auto;
-      width:100%;
-      
-  }
+  
 
   .btn{
     color: black;
@@ -55,22 +69,48 @@
   button>a{
     color: black;
   }
-
-  @media only screen and (min-width: 600px) {
-    .card {
-        width: 35%;
-        height:100%;
-        /* background-color: teal; */
-    }
-  }
-
-  @media only screen and (min-width: 1000px) {
-    .card {
-        width: 30%;
-        height:100%;
+  .BackToTop-project{
+    color: #215de9;
+  
+}
+  @media only screen and (max-width: 1286px) {
+    /* .card { */
+        /* width: 350px; */
+        /* height:100%; */
         /* background-color: yellow; */
-    }
-    .cards{
+    /* } */
+    /* .cards{
         justify-content: space-around;
+    } */
+  }
+  /* @media only screen and (max-width: 600px) {
+    .card {
+        width: 70%;
+        height:100%;
+        background-color: teal;
     }
+  } */
+
+   @media only screen and (max-width: 450px) {
+    .projects{
+      display: grid;
+      grid-template-rows: 5% 95%;
+        
+    }
+    .card {
+      width: 70%;
+      /* height:70%; */
+      /* background-color: teal; */
+      margin-left: 10%;
+        margin-right: 10%;
+    }
+    .BackToTop-project {
+      position: relative;
+      left: 55px;
+  }
+   /* .cards {
+      /* overflow-x: hidden; */
+      /* margin-left: auto;
+      margin-right: auto; */
+    /* } */ 
   }
