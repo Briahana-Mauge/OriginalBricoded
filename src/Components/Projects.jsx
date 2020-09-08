@@ -5,30 +5,21 @@ import Twitter from '../images/twitter.png';
 import Endeavor from '../images/endeavor.png';
 import BriFlix from '../images/BriFlix.png';
 import '../CSS/Projects.css';
-// import Contact from './Contact';
-// import logoBlack from '../logoBlack.svg';
 import NavBar2 from './NavBar2';
-// import BackToTop from "react-back-to-top-button";
-// import { FaArrowUp } from 'react-icons/fa';
 import BackToTop from './BackToTop';
+import ImageLoad from './ImageLoader';
 
 
 const Projects = () => {
     return (
         <div className='projects'>
-            <NavBar2 contact='other-pages' links='link' />
+            <NavBar2 contact='other-pages' links='link page-link' />
 
             <div className='cards'>
                 <div className="card">
-                    {/* <img src={Endeavor} alt="Avatar" />
-                    <iframe src='https://www.youtube.com/embed/oaP1JNZTj6Q'
-                        frameborder='0'
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        width='100%'
-                    height='209%'
-                    /> */}
-                    <img src={Endeavor} alt="Avatar" />
+                    {/* <img src={Endeavor} alt="ScreenShot of Endeavor project" /> */}
+                    <ImageLoad src={Endeavor} placeholder={Endeavor} alt="ScreenShot of Endeavor project" />
+
                     <div class="container">
                         <h4><b>Endeavor</b></h4>
                         <button><a

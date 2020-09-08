@@ -3,29 +3,32 @@ import { Link } from "react-router-dom";
 // import Button from './Button';
 import '../CSS/NavBar.css';
 import { connect } from 'react-redux';
-// import Contact from './Contact';
-// import logoBlack from '../logoBlack.svg';
+import Contact from './Contact';
+import logoBlack from '../logoBlack.svg';
 import crownYellow from '../crown_yellow.PNG';
 import crownBlack from '../crown_black.PNG';
 const NavBar = (props) => {
+
   if (props.contact) {
+    console.log(props)
     return (
       <div className="nav">
-        <header className= {`nav2 ${props.links}`}>
+        <header className={`nav2 ${props.links}`}>
 
           {/* <div className='new-nav'> */}
           <Link to="/"><img className='crown' src={crownBlack} alt='small crown in B=black hovering over "home" button'></img><p>Home</p></Link> {' '}
           <Link to="/Projects"><img className='crown' src={crownBlack} alt='small crown in black hovering over "projects" button'></img><p>Projects</p></Link>{' '}
           <Link to="/days-of-code"><img className='crown' src={crownBlack} alt='small crown in black hovering over "days of code" button'></img><p>Days Of Code</p></Link>{' '}
-            {/* <Button /> */}
+          {/* <Button /> */}
           {/* </div> */}
+          
         </header>
 
-        {/* <div className='small_div'> */}
-          {/* <img src={logoBlack} alt="logo in black" className='blackLogo' /> */}
+        <div className='small_div'>
+         <img src={logoBlack} alt="logo in black" className='blackLogo' />
+         {/* <Contact className={`main ${props.contact}`} /> */}
 
-          {/* <Contact className={`main ${props.contact}`} /> */}
-        {/* </div> */}
+        </div>
 
 
       </div>

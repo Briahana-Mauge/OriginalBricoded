@@ -2,7 +2,7 @@
 .thread{
     /* background-color: rgb(32, 92, 233); */
     display: grid;
-    grid-template-rows:7% 90%;
+    grid-template-rows:5% auto;
 }
 .Tweets{
     margin-left: 20%;
@@ -11,7 +11,21 @@
 .BackToTop-thread{
     color: #215de9;
 }
-
+.nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* visibility: initial; */
+  }
+  .blackLogo {
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    right: 30px;
+}
+.small_div{
+    grid-column: 2;
+    visibility: initial;
+}
 @media only screen and (max-width: 450px) {
     .thread{
         /* background-color: rgb(32, 92, 233); */
@@ -30,3 +44,12 @@
     }
   
   }
+
+@media only screen and (max-width: 414px) {
+    .blackLogo {
+        height: 15%;
+        width: 20%;
+        position: absolute;
+        right: 30px;
+    }
+}

@@ -6,7 +6,9 @@ html, body{
     /* background-color: #EDF778; */
     
 }
-
+.nav{
+    display: flex;
+  }
 .filler{
     position: absolute;
     color: #EDF778;

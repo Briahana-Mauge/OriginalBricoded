@@ -5,21 +5,22 @@ import { AiOutlineFilePdf, AiOutlineMail } from 'react-icons/ai'
 const Contact = (props) => {
     console.log(props)
     if (props.className === 'main other-pages') {
+
         return (
             <div className={`contact-icons ${props.className}`}>
                 <a
                     target='_blank'
                     href='https://github.com/Briahana-Mauge'
-                    className={`icon contact ${props.className}`}
+                    className={`icon contact otherIcon ${props.className}`}
                     rel='noopener noreferrer'
                     title='GitHub'>
-                    <label><FaGithub className={`icon contact ${props.className}`} /><p className='label-name'>GitHub</p></label>
+                    <label><FaGithub className={`icon contact otherIcon ${props.className}`} /><p className='label-name'>GitHub</p></label>
                 </a>
 
                 <a
                     target='_blank'
                     href='https://www.linkedin.com/in/bmauge/'
-                    className={`icon contact ${props.className}`}
+                    className={`icon contact otherIcon ${props.className}`}
                     rel='noopener noreferrer'>
                     <label><FaLinkedinIn className={`icon contact ${props.className}`} /><p>LinkedIn</p></label>
                 </a>
@@ -27,15 +28,15 @@ const Contact = (props) => {
                 <a
                     target='_blank'
                     href='https://docs.google.com/document/d/1mIMbMChCLFeGLR2leAZxgg0ArX7juJlKLCcp71IYJF0/edit?usp=sharing'
-                    className={`icon contact ${props.className}`}
+                    className={`icon contact otherIcon ${props.className}`}
                     rel='noopener noreferrer'>
-                    <label><AiOutlineFilePdf className={`icon contact ${props.className}`} /><p>Resume</p></label>
+                    <label><AiOutlineFilePdf className={`icon contact otherIcon ${props.className}`} /><p>Resume</p></label>
                 </a>
 
                 <a
                     href='mailto:briahanamauge@pursuit.org'
-                    className={`icon contact ${props.className}`}>
-                    <label><AiOutlineMail className={`icon contact ${props.className}`} /><p>Email</p></label>
+                    className={`icon contact otherIcon ${props.className}`}>
+                    <label><AiOutlineMail className={`icon contact otherIcon ${props.className}`} /><p>Email</p></label>
                 </a>
 
             </div>

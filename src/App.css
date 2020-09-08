@@ -96,12 +96,12 @@ justify-items: center;
   justify-content: center;
 } */
 
-  .blackLogo {
+  /* .blackLogo {
     height: 15%;
     width: 15%;
     position: absolute;
     /* margin-bottom: 0px; */
-    left: 30px;
+    /* left: 30px; */
     /* position: fixed; */
     /* top: 5%; */
     /* right: 39%; */
@@ -113,7 +113,7 @@ justify-items: center;
 /* position: fixed; */
 /* top: 5%;  */
 /* left: 35%;  */
-}
+/* } */ 
 
 .menu{
   color: white;
@@ -193,10 +193,7 @@ justify-items: center;
   left: .75%;
 
  }   */
-.nav{
-  display: flex;
-  /* background-color: rgba(237, 247, 120, .6); */
-}
+
 .new-nav{
   position: absolute;
   left: 40%;
