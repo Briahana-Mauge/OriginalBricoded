@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import Button from './Button';
 import '../CSS/NavBar.css';
 import { connect } from 'react-redux';
-import Contact from './Contact';
+// import Contact from './Contact';
 import logoBlack from '../logoBlack.svg';
 import crownYellow from '../crown_yellow.PNG';
 import crownBlack from '../crown_black.PNG';
