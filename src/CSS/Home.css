@@ -13,8 +13,8 @@
     text-align: center;
   }
   .app{
-   border: 1.5em solid ;
-    border-image: url("../images/cheetahprint.jpg") 100 round ;   
+   /* border: 1.5em solid ; */
+  /* border-image: url("../images/cheetahprint.jpg") 100 round ;    */
     min-height: 95vh;
   }
   

@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 import '../CSS/Home2.css';
-import logoYellow from '../logoYellow.svg';
 import emptyYellow from '../empty_yellow.PNG';
 import Nav2 from './NavBar2';
 import Contact from './Contact';
 import About from './About';
 import Skills from './Skills';
+// import { Img } from 'react-image'
+import ImageLoad from './ImageLoader';
 
-const Home2 = () => {
+
+const Home2 = (props) => {
     const [isShown, setIsShown] = useState(false);
     const [filler, setFiller] = useState(false);
-    // const styles = {
-    //     visibility: 'hidden'
-    // }
+    console.log(props.src);
     return (
         <>
             <div id='right'>
@@ -31,22 +31,20 @@ const Home2 = () => {
                 <Nav2 />
 
                 <div id='blue_text'>
+                    <div className='filler'>
 
-                    {/* {   filler === '' ?
-                    null: 
-                        // <div className='filler' style={styles}><p>{filler}</p></div> : 
-                        <div className='filler'><p>{filler}</p></div>
-                    } */}
-
-                    {   isShown ?
-                        <><div className='filler'><p>{filler}</p></div><img src={emptyYellow} alt='logo here' /></> :
-                        <img src={logoYellow} alt='logo here' />
-                    }
-
+                        {
+                            filler ?
+                                <p>{filler}</p> :
+                                (<>{setFiller('www.')},
+                                <p>{filler}</p> </>)
+                        }
+                    </div>
+                    <ImageLoad src={emptyYellow} placeholder={emptyYellow} alt="testing" />
                 </div>
 
                 <br />
-                <Contact className='home' setIsShown={setIsShown}
+                <Contact className='home' setIsShown={setIsShown} isShown={isShown}
                     setFiller={setFiller} />
             </div>
         </>
@@ -54,7 +52,6 @@ const Home2 = () => {
 }
 
 export default Home2;
-
 
 
 
