@@ -6,7 +6,8 @@ body {
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: 50px 70px 70px 70px;
-  /* margin-right: 40%; */
+  position: absolute;
+  left: 5px;
   color: white;
 }
 .sidebarIcon:not(hover){
