@@ -5,7 +5,7 @@ body {
 .sidebar{
   display: grid;
   flex-wrap: wrap;
-  grid-template-columns: 50px 70px 70px 70px;
+  grid-template-columns: 70px 70px 70px 70px;
   position: absolute;
   left: 5px;
   color: white;
