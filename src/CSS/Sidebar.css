@@ -2,7 +2,21 @@ html,
 body {
   margin: 0;
 }
-
+.sidebar{
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 50px 70px 70px 70px;
+  /* margin-right: 40%; */
+  color: white;
+}
+.sidebarIcon:not(hover){
+  color: white;
+}
+.sidebar:hover label{
+  /* font-size: 12px; */
+  font-size: .55em;
+  color: white;
+}
 #App {
   font-family: sans-serif;
 
@@ -19,7 +33,7 @@ body {
 
 /* Individual item */
 .bm-item {
-  display: inline-block;
+  /* display: inline-block; */
 
   /* Our sidebar item styling */
   text-decoration: none;

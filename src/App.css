@@ -115,22 +115,20 @@ justify-items: center;
 /* left: 35%;  */
 /* } */ 
 
-.menu{
+/* .menu{
   color: white;
   font-size: 1.15em;
-  /* margin-left: 10px; */
   margin-top: 20px;
 }
 .menu:hover p{
   text-decoration: underline;
-  /* color: #215de9; */
   visibility: visible;
   font-size: 1em;
 }
 .menu:not(:hover) p{
   font-size: 1.15em;
   visibility: hidden;
-}
+} */
 
 .main{
   font-size: 120%;
@@ -178,13 +176,13 @@ justify-items: center;
   padding-bottom: 8px;
 }
 
-.contact-icons{
+/* .contact-icons{
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: 80px 80px 80px 80px;
   grid-template-rows: 80px;
   justify-items: center;
-}
+} */
 /* .main{
   display: inline-flex;
   flex-wrap: wrap;

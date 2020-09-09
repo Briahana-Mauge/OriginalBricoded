@@ -6,6 +6,27 @@ html, body{
     /* background-color: #EDF778; */
     
 }
+.contact-icons{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px;
+    justify-items: center;
+  }
+.menu{
+    color: white;
+    font-size: 1.15em;
+    margin-top: 20px;
+  }
+  .menu:hover p{
+    text-decoration: underline;
+    visibility: visible;
+    font-size: 1em;
+  }
+  .menu:not(:hover) p{
+    font-size: 1.15em;
+    visibility: hidden;
+  }
 .nav{
     display: flex;
   }

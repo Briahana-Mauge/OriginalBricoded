@@ -45,7 +45,7 @@ class HamburgerMenu extends React.Component {
           <Link onClick={() => this.closeMenu()} className="menu-item" to="/projects">Projects</Link>
           <Link onClick={() => this.closeMenu()} className="menu-item" to="/days-of-code">Days of Code</Link>
           {/* <Button /> */}
-          <Contact className = 'menu'/>
+          <Contact className = 'menu' sidebar = 'sidebar'/>
           {/* <div className = 'Contact-icons'>
             
 
