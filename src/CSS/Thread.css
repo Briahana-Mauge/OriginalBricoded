@@ -17,14 +17,21 @@
     /* visibility: initial; */
   }
   .blackLogo {
-    height: 15%;
-    width: 15%;
+    width: 187.5px;
+    height: 109.94px;
     position: absolute;
     right: 30px;
 }
 .small_div{
     grid-column: 2;
     visibility: initial;
+}
+
+@media only screen and (max-width: 559px) {
+.blackLogo{
+    width: 140.5px;
+    height: 87.94px;
+}
 }
 @media only screen and (max-width: 450px) {
     .thread{
@@ -47,9 +54,12 @@
 
 @media only screen and (max-width: 414px) {
     .blackLogo {
-        height: 15%;
-        width: 20%;
+        /* height: 15%;
+        width: 20%; */
+        width: 140.5px;
+    height: 87.94px;
         position: absolute;
         right: 30px;
+        top: 0px
     }
 }

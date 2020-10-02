@@ -9,7 +9,7 @@ const Thread = () => {
     return ( 
         <div className = 'thread'>
          <NavBar2  contact = 'other-pages' links = 'link page-link'/>
-            <>
+            {/* <> */}
             <div className='Tweets'>
             {/* <br></br><br></br> */}
                 <div className="centerContent" width= "85%">
@@ -28,7 +28,7 @@ const Thread = () => {
                     </div>
                 </div>
             </div>
-            </>
+            {/* </> */}
             <BackToTop page={'thread'} />
         </div>
         
