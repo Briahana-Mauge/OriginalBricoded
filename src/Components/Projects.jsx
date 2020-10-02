@@ -4,6 +4,7 @@ import Holding from '../images/holding.png';
 import Twitter from '../images/twitter.png';
 import Endeavor from '../images/endeavor.png';
 import BriFlix from '../images/BriFlix.png';
+import ColorClock from '../images/BrisColorClock.png'
 import '../CSS/Projects.css';
 import NavBar2 from './NavBar2';
 import BackToTop from './BackToTop';
@@ -66,6 +67,29 @@ const Projects = () => {
                 </div>
                 <br></br>
 
+                <div class="card">
+                    <img src={ColorClock} alt="Screenshot of Bri's Color Clock project" />
+                    <div class="container">
+                        <h4><b>Bri's Color Clock</b></h4>
+                        <button><a
+                            target='_blank'
+                            href='https://briscolorclock.netlify.app/'
+                            className='btn'
+                            rel='noopener noreferrer'>Live</a></button>
+                        <button><a
+                            target='_blank'
+                            href='https://github.com/Briahana-Mauge/Bris-Color-Clock'
+                            className='btn'
+                            rel='noopener noreferrer'>
+                            Github</a></button>
+
+                        <p>
+                        See the time of the day in terms of color.
+                        </p>
+                    </div>
+                </div>
+                <br></br>
+                
                 <div class="card">
                     <img src={BriFlix} alt="Screenshot of BriFlix project" />
                     <div class="container">
