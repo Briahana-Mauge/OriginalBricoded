@@ -34,7 +34,7 @@ const Contact = (props) => {
                 </a>
 
                 <a
-                    href='mailto:briahanamauge@pursuit.org'
+                    href='mailto:bricoded@gmail.com'
                     className={`icon contact otherIcon ${props.className}`}>
                     <label><AiOutlineMail className={`icon contact otherIcon sidebarIcon ${props.className}`} /><p>Email</p></label>
                 </a>
