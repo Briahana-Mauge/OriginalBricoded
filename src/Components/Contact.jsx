@@ -76,7 +76,7 @@ const Contact = (props) => {
                 </a>
 
                 <a
-                    href='mailto:briahanamauge@pursuit.org'
+                    href='mailto:bricoded@gmail.com'
                     className={`icon contact ${props.className}`}
                     onMouseEnter={() => { return (props.setIsShown('Email'), props.setFiller('Email')) }}
                     onMouseLeave={() => { return (props.setIsShown(false), props.setFiller('')) }} >
