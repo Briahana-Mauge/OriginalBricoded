@@ -6,16 +6,12 @@ import Home2 from './Components/Home2';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Thread from './Components/Thread'
-import NavBar from './Components/NavBar';
-// import NavBar2 from './Components/NavBar2';
 import Sidebar from './Components/Sidebar';
-// import Skills from './Components/Skills';
+// import NavBar2 from './Components/NavBar2';
 import './App.css';
-import { connect} from 'react-redux';
-
+import { connect } from 'react-redux';
 
 const App = (props) => {
-  
    
   console.log(props)
   return (
@@ -38,7 +34,7 @@ const App = (props) => {
         )
         :
         (<div className="app">
-          <NavBar />
+          {/* <NavBar /> */}
           <Sidebar   />
 
           <Switch>
@@ -58,7 +54,7 @@ const App = (props) => {
 
 const mapStateToProps = (state) => {
   return state;
-  
+
 }
 
 export default connect(mapStateToProps)(App)

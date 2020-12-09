@@ -5,12 +5,12 @@
   background-color: white;
  /* border: 1.5em solid ; */
   /* border-image: url("./images/cheetahprint.png") 100 round ; */
-
   /* border-image: url("./images/cheetahprint.jpg") 30 round; */
 }
 /* import */
 html, body{
   background-color: white;
+
 }
 #root{
   /* background-color: white; */

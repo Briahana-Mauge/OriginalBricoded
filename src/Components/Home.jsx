@@ -20,6 +20,7 @@ const Home = () => {
                 </p> */}
 <About/>
 <Skills/>
+
                 
             </div>
             <br/> 

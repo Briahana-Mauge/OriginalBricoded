@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Button from './Button';
+// import Button from './Button';
 import '../CSS/NavBar.css';
 import { connect } from 'react-redux';
 
@@ -13,7 +13,7 @@ const NavBar = () => {
         {/* <Link to="/about">About</Link>{' '} */}
         {/* <Link to="/contact">Contact</Link>{' '} */}
         <Link to="/days-of-code">Days Of Code</Link>{' '}
-        <Button />
+        {/* <Button /> */}
       </header>
     </div>
   );

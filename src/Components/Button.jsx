@@ -24,7 +24,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         switchTheme: () => {
-            // console.log('increment called')
             dispatch({
                 type: RECEIVE_THEME
             })
