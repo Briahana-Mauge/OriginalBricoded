@@ -18,7 +18,7 @@ const Skills = () => {
                 <label className='skill'><IoLogoJavascript className='icon ' /><p>Javascript</p></label>
                 <label className='skill'><FaGolang className='icon ' /><p>Golang</p></label>
                 <label className='skill'><FaReact className='icon ' /><p>React</p></label>
-                <label className='skill'>< SiMui className='icon ' /><p>Material UI</p></label>
+                <label className='skill'><SiMui className='icon ' /><p>Material UI</p></label>
                 <label className='skill'><FaHtml5 className='icon ' /><p>HTML 5</p></label>
                 <label className='skill'><FaCss3Alt className='icon ' /><p>CSS 3</p></label>
                 <label className='skill'><DiPostgresql className='icon ' /><p>PostgreSQL</p></label>
