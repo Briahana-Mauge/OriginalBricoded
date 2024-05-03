@@ -39,7 +39,8 @@ html, body{
     width: 62%;
     font-weight: bolder;
     display: inline-grid;
-    grid-template-columns: 75px 75px 20vh 75px 75px;
+    /* grid-template-columns: 75px 75px 20vh 75px 75px; */
+    justify-content: center;
 
   }
   .filler>p{
